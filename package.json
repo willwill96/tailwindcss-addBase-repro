@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-addbase-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:broken": "npx tailwindcss -i ./input.css -o ./output.css -c tailwind-broken.config.js",
+    "build:working": "npx tailwindcss -i ./input.css -o ./output.css -c tailwind-working.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
